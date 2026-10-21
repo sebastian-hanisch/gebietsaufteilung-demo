@@ -73,6 +73,8 @@ def test_the_district_growth_reaches_the_limit_everywhere_at_k_equals_four_and_w
     assert [r["sum_bal_both"] for r in four] == [30, 137, 202, 661, 599, 195] and [r["sum_grow_both"] for r in four] == [16, 270, 286, 759, 639, 229]
     assert [r["sum_bal_both"] for r in eight] == [28, 132, 266, 834, 768, 183] and [r["sum_grow_both"] for r in eight] == [18, 249, 336, 888, 845, 208]
     assert sum(r["sum_bal_both"] for r in rows) == 4035 and sum(r["sum_grow_both"] for r in rows) == 4743
+    ratios = [[g / b for b, g in zip((r["sum_bal_both"] for r in part), (r["sum_grow_both"] for r in part))] for part in (four, eight)]            # Schnitt des Wachstums gegen den der Reparatur, je Netztyp
+    assert all(1.8 < x[1] < 2.0 for x in ratios) and all(1.2 < x[2] < 1.5 for x in ratios) and all(1.05 < x[i] < 1.18 for x in ratios for i in (3, 4, 5))
     assert [r["sum_cut_grow"] for r in four] == [42, 286, 352, 782, 657, 330] and [r["sum_cut_grow"] for r in eight] == [108, 498, 403, 906, 879, 823]
     assert [round(r["sum_ratio_grow"] / 4, 2) for r in four[:1] + four[5:]] == [1.24, 1.31] and [round(r["sum_ratio_grow"] / 4, 2) for r in eight[:1] + eight[5:]] == [1.16, 1.42]
 

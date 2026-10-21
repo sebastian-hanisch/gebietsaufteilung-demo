@@ -69,5 +69,5 @@ PRESET_HELP = {
     "Zufallsnetz: kaum Probleme": "Kein Gebiet zerfällt (Schnitt 158); das Bezirkswachstum kommt auf Schnitt 173.",
     "Acht Gebiete im Kartennetz": "7 von 8 Gebieten zerfallen (80 Standorte in Inseln). Weder Reparatur noch Bezirkswachstum erreicht die Grenze (größtes Gebiet das 1,50- bzw. 1,31-Fache des Ideals).",
     "Zwei Gebiete: ein Gebiet zerfällt": "Die Bisektion findet Schnitt 9, aber ein Gebiet besteht aus zwei Stücken (53 Standorte in einer Insel). Nur das ausgeglichene Bezirkswachstum erreicht Grenze und Zusammenhang (Schnitt 12).",
-    "Weite Grenze (20 %): nur Wachstum schafft es": "Mit 20 % Spielraum erreicht nur das ausgeglichene Bezirkswachstum beides (Schnitt 14); Bisektion mit Reparatur bleibt beim 1,48-Fachen des Ideals.",
+    "Weite Grenze (20 %): nur Wachstum schafft es": "Mit 20 % Spielraum erreicht in diesem Netz nur das ausgeglichene Bezirkswachstum beides (Schnitt 14); Bisektion mit Reparatur bleibt beim 1,48-Fachen des Ideals.",
 }

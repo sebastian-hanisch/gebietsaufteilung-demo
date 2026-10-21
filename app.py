@@ -82,7 +82,7 @@ st.markdown(
 und für Gleichgewicht, aber **nicht dafür, dass jeder Teil zusammenhängt**: Ein Gebiet kann aus zwei Stücken bestehen, die nur über andere Gebiete verbunden sind. Die Demo teilt ein Netz mit **rekursiver Bisektion** in k Gebiete, **prüft** den Zusammenhang,
 **repariert** (Inseln umhängen, dann zusammenhangswahrend ausgleichen) und stellt das **Bezirkswachstum** daneben, das von Anfang an zusammenhängt.
 
-Auffällig: Auf **Kartennetzen** und **Verbundnetzen** zerfällt bei vier und acht Gebieten in jedem gemessenen Netz mindestens ein Gebiet, und viele Standorte liegen in Inseln; das Umhängen der Inseln macht ein Gebiet **zu groß**, und der Ausgleich schafft die Grenze nicht immer. Bei den anderen Netztypen sind die Inseln klein oder fehlen.
+Auffällig: Auf **Kartennetzen** und **Verbundnetzen** zerfällt bei vier und acht Gebieten in jedem gemessenen Netz mindestens ein Gebiet, und viele Standorte liegen in Inseln; das Umhängen der Inseln macht ein Gebiet **zu groß**, und der Ausgleich schafft die Grenze nicht immer. Bei den anderen Netztypen sind die Inseln klein, bei acht Gebieten zerfällt aber auch dort oft ein Gebiet.
 Ehrlich: Die Reparatur ist eine einfache Heuristik; ob ein besseres Verfahren öfter Grenze **und** Zusammenhang erreicht, misst die Demo nicht.
 
 Das ist das achte (optionale) Stück der Reihe **Schnitte und Zusammenhang**; das Teilen in zwei Hälften zeigen **bisektion-demo** und **multilevel-partitionierung-demo**, mehr als zwei Teile **multiway-cut-demo**. Weiter unten: die Experimente **🔬**,
