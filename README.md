@@ -1,7 +1,6 @@
 # Gebiete aufteilen: ausgewogen und zusammenhängend – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-gebietsaufteilung-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-gebietsaufteilung-demo.streamlit.app/)**
 
 Achtes (optionales) Stück der Reihe **Schnitte und Zusammenhang** (Arbeitstitel der Linie `schnitte-zusammenhang`) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“, Bereich Graphentheorie. Vehikel: ein **Verbindungsnetz zwischen Standorten** (Depots, Umschlagpunkte, Werke), synthetisch und mit festem Zufalls-Seed, 24 bis 300 Standorte. Die Demo fragt: **Wie teilt man ein Netz in k Gebiete, die gleich groß sind und jeweils zusammenhängen?** Eine gute Zweiteilung nach Schnitt (`bisektion-demo`, `multilevel-partitionierung-demo`) sorgt für wenige Leitungen zwischen den Teilen und für Gleichgewicht, aber nicht für den **Zusammenhang** jedes Teils. Die Demo teilt mit **rekursiver Bisektion** (FM mit zufälligen Neustarts) in 2, 4 oder 8 Gebiete, **prüft** den Zusammenhang, **repariert** (Inseln umhängen, dann zusammenhangswahrend ausgleichen und verbessern) und stellt das **Bezirkswachstum** (Region Growing) daneben.
 
